@@ -3,9 +3,19 @@
  */
 "use strict";
 
-let i = 0;
-while (i < 101) {
-    console.log(i++);
+while (i < 100) {
+    debugger;
+    let isPrimeNumber = true;
+    for (let j = 0;j <i;j++) {
+        if ( (j+2)<i && (i%(j+2) < 0.001) ) {
+           isPrimeNumber = false;
+            break;
+        }
+    }
+    if (isPrimeNumber === true) {
+        console.log(i);
+    }
+    i++;
 }
 /*Урок3 - Задание 2 
 Предположим, есть сущность корзины. Нужно реализовать функционал подсчета стоимости корзины в зависимости от находящихся в ней товаров. Товары в корзине хранятся в массиве. Задачи:

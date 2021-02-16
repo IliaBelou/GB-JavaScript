@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 9px px;
+    height 99px: 100;
+}
+
+html {
+    background: white;
+}
+
+
+/*упражнение 1*/
+
+.catalog {
+    display: flex;
+    text-align: center;
+    /*flex-direction: row;*/
+
+}
+
+.productItemDiv {
+    /* background: grey; */
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-color: black;
+    margin: 5px;
+    border-style: dashed;
+}
+
+.productItemImageZone {
+    margin: 2px;
+
+}
+
+.productItemImageZone.img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productItemNameZone {
+    font-size: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+    margin: 2px;
+}
+
+.productItemPriceZone {
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+    margin: 2px;
+}
+
+.productItemButtonZone {
+    margin: 2px;
+}
+
+.newProductdiv table {
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.newProductdiv table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.newProductdiv table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 200px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  padding-top: 50px; 
+  left: 0;
+  top: 0;
+  width: 700px;
+  height: 700px; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#ModalWindowImg:hover {
+  cursor: pointer;  
+}
